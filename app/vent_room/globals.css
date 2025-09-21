@@ -1,0 +1,23 @@
+@import "tailwindcss";
+html,
+body {
+  /* Ensure the root elements take up full height */
+  height: 100%;
+  width: 100%;
+  
+  /* Remove any default browser spacing */
+  margin: 0;
+  padding: 0;
+  
+  /* Prevent horizontal scrollbars */
+  overflow-x: hidden; 
+}
+
+body {
+  /* Your background styles remain here */
+  background-image: url('/vent_room_img/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+sentence-transformers
+faiss-cpu
+google-generativeai
+numpy
