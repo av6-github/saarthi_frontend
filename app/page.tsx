@@ -13,7 +13,7 @@ import memoryLaneImg from "@/assets/memory-lane.png";
 import ventRoomImg from "@/assets/vent-room.png";
 
 function HomePage() {
-  const [open, setOpen] = useState<boolean>(false);
+  const [open, setOpen] = useState<boolean>(true);
 
   return (
     <div

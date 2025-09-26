@@ -7,3 +7,25 @@
 .font-poppins {
   font-family: var(--font-poppins), sans-serif;
 }
+
+.bg-memory-lane {
+  background: linear-gradient(
+    to bottom,
+    #312F61 0%,
+    #3E3268 9%,
+    #5E407E 19%,
+    #6C4886 26%,
+    #7A508F 35%,
+    #CD86AE 50%,
+    #E792B1 56%,
+    #FF95AD 66%
+  );
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

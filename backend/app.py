@@ -14,9 +14,9 @@ from prompts import get_prompt
 
 # --- MODEL INITIALIZATION ---
 print("Initializing models...")
-genai.configure(api_key="AIzaSyCLiDLe--z9ihkwmIh8-V8gLOpo7HGQ2g4")
+genai.configure(api_key="AIzaSyAV9tbwKNq1GYWpUkh0-dkzTineECCDXUI")
 embedding_model = SentenceTransformer("all-mpnet-base-v2")
-generative_model = genai.GenerativeModel("gemini-1.5-flash")
+generative_model = genai.GenerativeModel("gemini-2.5-flash")
 
 print("Loading FAISS index and documents...")
 faiss_index = faiss.read_index("faiss_index.bin")

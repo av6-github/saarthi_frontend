@@ -1,9 +1,21 @@
 [
   {
+    "id": "chat_1758893259",
+    "title": "hello i feel very confused today",
+    "timestamp": 1758893259,
+    "last_persona": "wise_elder"
+  },
+  {
+    "id": "chat_1758488487",
+    "title": "i want to commit suicide",
+    "timestamp": 1758488487,
+    "last_persona": "wise_elder"
+  },
+  {
     "id": "chat_1758469419",
-    "title": "New Chat",
+    "title": "I just broke up with my girlfriend ...",
     "timestamp": 1758469419,
-    "last_persona": "empathizer"
+    "last_persona": "motivator"
   },
   {
     "id": "chat_1758469217",
